@@ -1,0 +1,27 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="614" measuredH="587" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="332" y="14" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="394" y="237" w="184" h="-1" measuredW="155" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>v3.0_9%26bm%3Bv3.0_9.bmml%26bm%3Bv3.0_9.bmml%26bm%3Bv3.0_9.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2262%2C223%2C246%2C244%22%20href%3D%22v3.0_9.bmml%22%20alt%3D%22v3.0_9%22%20id%3D%222%22/%3E</map>
+        <text>JohnDoe%20requests%20a%20photo</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Title" x="442" y="148" w="-1" h="-1" measuredW="63" measuredH="43" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>7%3A11</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::SubTitle" x="409" y="191" w="-1" h="-1" measuredW="128" measuredH="19" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Friday%2C%20August%201st</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

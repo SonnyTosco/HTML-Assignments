@@ -1,0 +1,38 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="614" measuredH="587" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="332" y="14" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="356" y="97" w="233" h="411" measuredW="620" measuredH="414" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>%24ACCOUNT/assets/daylight.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="500" y="97" w="-1" h="-1" measuredW="89" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>John%20Doe%20says%3A</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="397" y="112" w="-1" h="-1" measuredW="192" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>What%27s%20going%20on%20in%20South%20Africa%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="356" y="95" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>times%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Icon" x="441" y="444" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>v3.0_10%26bm%3Bv3.0_10.bmml%26bm%3Bv3.0_10.bmml%26bm%3Bv3.0_10.bmml</href>
+        <icon>circle-o%7Cxlarge</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22109%2C430%2C173%2C494%22%20href%3D%22v3.0_10.bmml%22%20alt%3D%22v3.0_10%22%20id%3D%229%22/%3E</map>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

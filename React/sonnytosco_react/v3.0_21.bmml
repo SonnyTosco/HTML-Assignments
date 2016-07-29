@@ -1,0 +1,46 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="614" measuredH="587" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="332" y="14" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="359" y="99" w="225" h="224" measuredW="1242" measuredH="923" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <crop>0%2C103%2C1000%2C418</crop>
+        <src>./assets/IMG_7839.PNG</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::RoundButton" x="471" y="485" w="20" h="20" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::RoundButton" x="451" y="485" w="20" h="20" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <href>v3.0_20%26bm%3Bv3.0_20.bmml%26bm%3Bv3.0_20.bmml%26bm%3Bv3.0_20.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22119%2C471%2C139%2C491%22%20href%3D%22v3.0_20.bmml%22%20alt%3D%22v3.0_20%22%20id%3D%225%22/%3E</map>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::List" x="359" y="323" w="225" h="154" measuredW="100" measuredH="153" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <size>11</size>
+        <text>Here%20are%20your%20stats%20JohnDoe%3A%0AResponse%20Rate%3A%2090%25%0A%20%0AAverage%20Response%20Time%3A%2010%3A00m%0A%20%0AInternational%20Friends%3A%0A2005</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::ProgressBar" x="371" y="367" w="204" h="20" measuredW="100" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <scrollBarValue>90</scrollBarValue>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::ProgressBar" x="371" y="410" w="204" h="20" measuredW="100" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <scrollBarValue>14</scrollBarValue>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

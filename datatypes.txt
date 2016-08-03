@@ -1,0 +1,8 @@
+Data Types
+Boolean Values - Assesses the truth value of something. It has only two values: True and False
+Numbers - Integers, floating point numbers, and complex numbers
+Strings - A text literal. Most pages in the web work with strings quite often
+Tuples - A type of data that is immutable and can hold a group of values. Tuples can contain mixed data types
+Lists -  A type of data that is mutable and  can hold a group of values. Usually meant to store a collection of related data
+Dictionaries - A group of key-value pairs. Dictionary elements are indexed by unique keys which are used to access values
+Sets - An unordered collection of data with no duplicate elements supporting operations like union, intersection, and difference

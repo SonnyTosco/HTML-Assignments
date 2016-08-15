@@ -1,0 +1,96 @@
+Basic Form Validation
+
+Most important concepts:
+- Logic
+  - what data do we want to validate?
+- Checking if the data is present
+- Making sure the data is in the correct format
+- Sending fhe user to the correct destination whether their data is valid or not
+- Alerting the user of their errors (if they exist)
+
+Getting Started
+- most important to know how to do the if/else statement
+- form validation centers around using if statements combined with functions
+that return TRUE or FALSE depending on the data we give them
+
+Validation Step 1- Conditionals
+- every validation is conditional
+- Pseudo code would look like:
+
+If the name field in the POST data is empty
+  Display validation error
+Else:
+  display success message
+
+How should we check if the name field is empty? This is where the handy built-in
+python function "len()" comes in!
+
+Len ()
+The len function takes in a string as an argument and returns the length of the string
+
+Validation Step 2- Flash Messages on the server
+- flash messages are strings that exist for one redirect cycle
+  - similar to session, you can access flash messages through embedded
+  python tags {{}} & {%%} on the views and display them to the user
+
+Validation Step 3- Flash messages on the client
+- Flash helps us with flash messages by giving us access to a function on the client side that allows
+us to get all flash messages as a list
+- the function to use this is "get_flashed_messages()". Example below
+
+<html>
+<head>
+  <title>Basic Validation Example</title>
+</head>
+<body>
+  <h1>Enter a Valid(Any) Name!</h1>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+        <p>{{message}}</p>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+  <form action='/process' method='POST'>
+    Name:<input type="text" name="name">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+A lot is happening in the code that we added. Let's go over it line by line
+
+{% with messages = get_flashed_messages() %}
+  The with messages here helps us declare a variable in our template that we can use within a specific scope.
+{% if messages %}
+  Check if there are even any messages that came back from the get_flashed_messages() function
+{% for message in messages %}
+  Loop through all messages
+<p>{{message}}</p>
+  Print the messages one by one each in a paragraph tag
+
+Advanced Routing
+
+So far we have a couple of ways to pass data between the client and the server
+- form data sent from the client to the server (accessed through request.form
+on the server side)
+- through session sent in either direction
+- through flash messages sent from the server to the client
+(accessed through get_flashed_messages() on the client side)
+- through named arguments passed to the render_template function (server to the client)
+
+Passing data from the client to the server
+- We have already learned how to define basic route handlers that take care of any static route.
+What if we wanted to have a route '/users/___' where anything that comes after
+'/users/' was passed as a variable to the route handler. If we could do this then we could
+have '/users/jay' display a page that says "Hello Jay" and '/users/jimmy' display a page
+that says "Hello Jimmy" without writing two different route handlers!
+
+The server.py would look like this:
+/advanced_routing/server.py
+from flask import Flask, render_template, request, redirect
+app = Flask(__name__)
+@app.route('/users/<username>')
+def show_user_profile(username):
+    return render_template("user.html", username=username)
+app.run(debug=True)

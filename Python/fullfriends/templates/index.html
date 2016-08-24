@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Full Friends</title>
+  </head>
+  <body>
+    <h1>Some of my friends</h1>
+    <table>
+    	<thead>
+    		<tr><th>First Name</th><th>Last Name</th><th>Email</th><th>Friends Since</th><th>Actions</th></tr>
+    	</thead>
+    	<tbody>
+    		{% for friends in friends %}
+    		<tr>
+    			<td>{{friends['fname']}}</td>
+    			<td>{{friends['lname']}}</td>
+    			<td>{{friends['email']}}</td>
+    			<td>{{session['time']}}</td>
+    			<td>
+    				<a href="/friends/{{friends['id']}}/edit">Edit</a>
+    				<a href="/friends/{{friends['id']}}/delete">Delete</a>
+    			</td>
+    		</tr>
+    		{% endfor %}
+    	</tbody>
+    </table>
+    <form action="/add">
+      <input type="submit" value="Add">
+    </form>
+  </body>
+</html>

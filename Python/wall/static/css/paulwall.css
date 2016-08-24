@@ -1,0 +1,36 @@
+#container{
+  width: 600px;
+  height:auto;
+  margin: auto;
+  width: 50%;
+  display: block;
+  margin-top: 50px;
+  font-family: verdana;
+  text-align: auto;
+}
+#registration{
+  height:200px;
+  width:400px;
+  border: 2px solid #9ACD32;
+  text-align: right;
+  padding:40px;
+  background-color: #9ACD32;
+  color: white;
+}
+
+#login{
+  height:120px;
+  width:440px;
+  border: 2px solid #9ACD32;
+  text-align: right;
+  padding-top:40px;
+  padding-right: 40px;
+  margin-top:20px;
+  background-color: #9ACD32;
+  color: white;
+}
+
+#form {
+  margin-left: 30px;
+  text-align: right;
+}
